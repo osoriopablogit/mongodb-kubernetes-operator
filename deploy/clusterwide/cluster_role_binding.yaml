@@ -5,6 +5,7 @@ metadata:
 subjects:
 - kind: ServiceAccount
   # namespace: <your-namespace>
+  namespace: mongodb
   name: mongodb-kubernetes-operator
 roleRef:
   kind: ClusterRole
